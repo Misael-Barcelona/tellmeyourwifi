@@ -1,5 +1,5 @@
 # tellmeyourwifi
-Aplicación para ver las redes WiFi y sus contraseñas, guardadas en un ordenador Windows.
+Aplicación que muestra las redes WiFi y sus contraseñas, guardadas en un ordenador Windows.
 
 Sencilla aplicación creada en Python que nos muestra las redes WiFi guardadas en un ordenador Windows, así como sus contraseñas. 
 
