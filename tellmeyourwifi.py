@@ -91,7 +91,7 @@ if __name__ == '__main__':
 
     # Dado que el tiempo que se tarda en crear los XML dependerá de la cantidad
     # de redes WiFi que haya en el equipo escaneado, he creado esta rutina
-    # para que el flujo del programa no continue hasta que esté todos los
+    # para que el flujo del programa no continue hasta que estén todos los
     # XML creados.
     descarga = 0
     time.sleep(1)
