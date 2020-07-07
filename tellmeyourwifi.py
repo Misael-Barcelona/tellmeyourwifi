@@ -1,15 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# 20/07/2019
-# Tellmeyourwifi.py por Misael Aranda Téllez (misael_aranda@hotmail.com).
+# 07/07/2020
+# Tellmeyourwifi.py por Misael Aranda Téllez
 # Con esta aplicación podremos ver las redes wifi guardadas en un ordenador
 # con Windows, así como sus contraseñas.
+#
+# Mail: 		misael_aranda@hotmail.com
+# LinkedIn: 	https://www.linkedin.com/in/misael-aranda-tellez/
 
 import os, time, argparse, glob
 from xml.dom import minidom
-
-
 
 def cabecera():
 
