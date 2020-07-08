@@ -23,7 +23,7 @@ def cabecera():
   \_/\___|_|_| |_| |_| |_|\___|  \__, |\___/ \__,_|_|      \_/\_/ |_|_| |_|
                                   __/ |
                                  |___/
-                                                                    v 1.0
+                                                                    v 1.1
 
     ''')
 
@@ -86,6 +86,7 @@ if __name__ == '__main__':
     	os.remove(archivo)
 
     # Se crean los archivos XML con las información de las redes WiFi.
+    print(unicode('Atención: Ejecutar como administrador.', "utf-8"))
     print(unicode('Extrayendo información. Un momento, por favor.\n\n', "utf-8"))
     os.popen('netsh wlan export profile key=clear')
 
